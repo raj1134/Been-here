@@ -1,4 +1,4 @@
-package Text;
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -77,7 +77,7 @@ public class MyLinkTextDemo {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setSize(600, 600);
-        MyLinkText f = new MyLinkText("New? Sign up and start playing chess.", 20, 564/2 - 354/2, 562/2 - 15, null);
+        MyLinkText f = new MyLinkText("New? Sign up and start playing chess.", 20, 600/2 - 350/2, 562/2 - 15, null);
         frame.add(f);
         frame.setLayout(null);
         frame.getContentPane().setBackground(new Color(0x101010));
